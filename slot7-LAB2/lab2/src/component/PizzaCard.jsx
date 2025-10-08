@@ -9,7 +9,7 @@ const PizzaCard = ({ name, price, oldPrice, tag, imageUrl }) => {
 
   // Format tiền
   const formatPrice = (value) =>
-    new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
+    new Intl.NumberFormat('en-VN', { style: 'currency', currency: 'VND' }).format(value);
 
   return (
     <div className="col-lg-3 col-md-6 mb-4">
@@ -42,7 +42,7 @@ const PizzaCard = ({ name, price, oldPrice, tag, imageUrl }) => {
             )}
             <span className="fw-bold fs-5">{formatPrice(price)}</span>
           </p>
-          <button className="btn btn-secondary w-100">Buy</button>
+          <button className="btn btn-secondary w-100" >Buy</button>
         </div>
       </div>
     </div>

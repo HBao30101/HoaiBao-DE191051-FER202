@@ -8,6 +8,7 @@ import MenuSection from './component/MenuSection';
 import BookingForm from './component/BookingForm';
 // Import Bootstrap CSS (nếu chưa import trong index.js)
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
@@ -23,7 +24,8 @@ const App = () => {
 
       {/* 4. Booking Form */}
       <BookingForm />
-
+      {/* 4. Booking Form */}
+      <Footer />
     </div>
   );
 };

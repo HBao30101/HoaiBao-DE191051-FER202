@@ -5,6 +5,16 @@ const BookingForm = () => {
   return (
     <section className="booking-form-section py-5 bg-dark">
       <div className="container">
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+        </div>
+        <div className="modal" tabIndex="-1">
+
+</div>
+
+
+
+
         <h2 className="text-white text-center mb-5">Book Your Table</h2>
         <form>
           <div className="row mb-4">
@@ -34,7 +44,7 @@ const BookingForm = () => {
           </div>
           {/* Nút Gửi */}
           <div className="row">
-            <div className="col-12">
+            <div className="col-12 text-center">
               <button type="submit" className="btn btn-warning btn-lg px-5 py-2 fw-bold text-dark">
                 Send Message
               </button>
