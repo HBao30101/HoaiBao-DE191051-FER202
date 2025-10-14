@@ -1,0 +1,173 @@
+.movie-section {
+  margin: 3rem 0;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(145deg, #0a0a0a, #151515);
+  color: #f8f9fa;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #00bbf9;
+}
+
+.movie-card {
+  border: 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.poster-wrapper {
+  height: 300px;
+  overflow: hidden;
+}
+
+.movie-poster {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  filter: brightness(0.8);
+}
+
+.movie-poster:hover {
+  transform: scale(1.08);
+}
+
+.movie-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.movie-title {
+  font-weight: bold;
+  color: #00bbf9;
+  margin-bottom: 0.5rem;
+}
+
+.movie-desc {
+  color: #f1f1f1;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.movie-meta {
+  margin-bottom: 0.75rem;
+}
+
+.movie-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.btn-fav {
+  border-color: #00f5d4 !important;
+  color: #00f5d4 !important;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+.btn-detail {
+  background: linear-gradient(45deg, #00bbf9, #7209b7) !important;
+  border: none !important;
+  font-weight: 600;
+  color: white !important;
+  border-radius: 50px;
+}
+
+/* Toast & Modal animation */
+.toast-genz {
+  background: linear-gradient(45deg, #00f5d4, #00bbf9);
+  animation: floatIn 0.5s ease, fadeOut 0.5s 1.8s ease forwards;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.4);
+  color: white;
+  z-index: 9999;
+}
+
+@keyframes floatIn {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.modal-genz {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  background: #111;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  position: relative;
+  z-index: 10;
+  animation: popIn 0.4s ease;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
