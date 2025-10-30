@@ -1,0 +1,168 @@
+{
+  "genres": [
+    {
+      "id": "1",
+      "name": "Sci-Fi"
+    },
+    {
+      "id": "2",
+      "name": "Comedy"
+    },
+    {
+      "id": "3",
+      "name": "Drama"
+    },
+    {
+      "id": "4",
+      "name": "Horror"
+    },
+    {
+      "id": "5",
+      "name": "Romance"
+    },
+    {
+      "id": "6",
+      "name": "Action"
+    },
+    {
+      "id": "7",
+      "name": "Thriller"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "Galactic Wars",
+      "description": "Epic space battles decide the fate of a fractured galaxy as rival factions clash for control.",
+      "poster": "/images/movie1.jpg",
+      "genreId": 1,
+      "year": 2022,
+      "country": "USA",
+      "duration": 132,
+      "avatar": "https://i.pinimg.com/1200x/1d/c7/75/1dc775a8751aaec8b8ee4776526a5c46.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Laugh Out Loud",
+      "description": "A feel-good comedy about friendship, failure, and second chances in a small town.",
+      "poster": "/images/movie2.jpg",
+      "genreId": 2,
+      "year": 2021,
+      "country": "UK",
+      "duration": 105,
+      "avatar": "https://i.pinimg.com/736x/22/9e/22/229e22d97cb27ca479e9ed9ecc856fe6.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Blue Ocean",
+      "description": "A gripping survival drama set far from shore when a voyage goes wrong.",
+      "poster": "/images/movie3.jpg",
+      "genreId": 3,
+      "year": 2019,
+      "country": "Australia",
+      "duration": 118,
+      "avatar": "https://i.pinimg.com/736x/e0/ef/a9/e0efa93b660d740c52fa934e7a694092.jpg"
+    },
+    {
+      "id": "5",
+      "title": "City of Love",
+      "description": "Two strangers meet in a sleepless city and rewrite their plans for life and love.",
+      "poster": "/images/movie5.jpg",
+      "genreId": 5,
+      "year": 2018,
+      "country": "France",
+      "duration": 110,
+      "avatar": "https://i.pinimg.com/1200x/b0/d6/2d/b0d62df81ca90fb810ef00299594ddf4.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Time Traveler",
+      "description": "A brilliant scientist discovers a way to bend time—at a cost no one could foresee.",
+      "poster": "/images/movie6.jpg",
+      "genreId": 1,
+      "year": 2023,
+      "country": "USA",
+      "duration": 124,
+      "avatar": "https://i.pinimg.com/736x/f1/61/92/f1619230e15d85e2bfeb849da5631137.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Street Runner",
+      "description": "An ex-courier is forced back into the fast lane for one last job across the neon city.",
+      "poster": "/images/movie7.jpg",
+      "genreId": 6,
+      "year": 2021,
+      "country": "Japan",
+      "duration": 102,
+      "avatar": "https://i.pinimg.com/736x/87/92/a6/8792a659d078c977acd407af596bd66d.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Hidden Truth",
+      "description": "A reporter unravels a conspiracy that powerful people will do anything to keep buried.",
+      "poster": "/images/movie8.jpg",
+      "genreId": 7,
+      "year": 2022,
+      "country": "Germany",
+      "duration": 115,
+      "avatar": "https://i.pinimg.com/736x/57/f1/db/57f1db21d0a6e42ac885c95aee17ce87.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Kingdom of Ash",
+      "description": "A fallen prince must unite rival clans to reclaim a cursed land and his destiny.",
+      "poster": "/images/movie9.jpg",
+      "genreId": 2,
+      "year": 2020,
+      "country": "New Zealand",
+      "duration": 141,
+      "avatar": "https://i.pinimg.com/1200x/1e/fd/34/1efd34e4e19c059d34d636be93a490db.jpg"
+    },
+    {
+      "id": "88da",
+      "avatar": "https://i.pinimg.com/736x/06/15/60/061560f98b0000ce242155d047773ff1.jpg",
+      "title": "Cinderella",
+      "description": "One of the most story about the princess who live with her step mother and meet the printerest.",
+      "genreId": 2,
+      "duration": 123,
+      "year": 2020,
+      "country": "Canada"
+    },
+    {
+      "id": "ca2e",
+      "avatar": "https://i.pinimg.com/736x/d3/6f/71/d36f71eebef7addb5a3a3beeebf856ce.jpg",
+      "title": "Dobby",
+      "description": "He was the normal child, howerver one of story has change his life, it began when the first time he met his dog name Dobby",
+      "genreId": 3,
+      "duration": 145,
+      "year": 2014,
+      "country": "Australia"
+    },
+    {
+      "id": "d316",
+      "avatar": "https://i.pinimg.com/1200x/dd/ce/d4/ddced404cbb1d85e7f7a13a909a618da.jpg",
+      "title": "Cinderella",
+      "description": "One the girl live in ...",
+      "genreId": 4,
+      "duration": 100,
+      "year": 2000,
+      "country": "UK"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "email": "admin@movie.com",
+      "fullName": "System Administrator"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user123",
+      "email": "user@movie.com",
+      "fullName": "Regular User"
+    }
+  ]
+}
