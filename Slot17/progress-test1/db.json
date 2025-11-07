@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "nam123",
+      "password": "123456",
+      "fullName": "Nguyễn Văn Nam"
+    },
+    {
+      "id": "2",
+      "username": "hainguyen",
+      "password": "123456",
+      "fullName": "Nguyễn Hải"
+    }
+  ],
+  "payments": [
+    {
+      "semester": "Fall 2027",
+      "courseName": "Database Systems",
+      "amount": 4000000,
+      "date": "2025-10-05",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "userId": "2",
+      "semester": "Fall 2025",
+      "courseName": "Mobile Programming",
+      "amount": 4200000,
+      "date": "2025-10-10"
+    },
+    {
+      "semester": "Fall 2024",
+      "courseName": "Database Systems",
+      "amount": 2300000,
+      "date": "2025-04-23",
+      "id": "1762438484030"
+    },
+    {
+      "id": "1762439682561",
+      "semester": "Fall2023",
+      "courseName": "MERN Stack",
+      "amount": 2027,
+      "date": "2027-04-21"
+    }
+  ]
+}
